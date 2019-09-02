@@ -24,8 +24,5 @@ public class AjaxThreeServlet extends HttpServlet {
         out.println(username+","+age);
         System.out.println(username+","+age);
         out.close();
-
-
-
     }
 }
