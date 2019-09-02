@@ -14,6 +14,8 @@ public class AjaxThreeServlet extends HttpServlet {
         doGet(request,response);
     }
 
+
+
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //获得用户名和年龄返回给客户端
         String username = request.getParameter("username");
