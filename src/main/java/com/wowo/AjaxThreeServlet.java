@@ -24,6 +24,5 @@ public class AjaxThreeServlet extends HttpServlet {
         out.close();
 
 
-
     }
 }
